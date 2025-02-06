@@ -5,10 +5,8 @@ const resetButton = document.getElementById('reset');
 
 let currentPlayer = 'X'; // X starts the game
 let gameState = ['', '', '', '', '', '', '', '', '']; // Represents the board state
-let gameActive = true; // Tracks if the game is still active
-
-// All possible winning combinations (rows, columns, diagonals)
-const winningConditions = [
+let gameActive = true;  
+const winningConditions =[
     [0, 1, 2], // Top row
     [3, 4, 5], // Middle row
     [6, 7, 8], // Bottom row
