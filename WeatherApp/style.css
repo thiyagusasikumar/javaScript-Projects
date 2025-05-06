@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background:#222;
+    overflow: hidden;
+}
+.ocard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 29px;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    width:100%;
+    max-width:500px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: #00e0ec;
+    background: linear-gradient(157deg, rgba(0, 224, 236, 1) 10%, rgba(0, 224, 236, 1) 19%, rgba(0, 224, 236, 0.99) 26%, rgba(2, 145, 213, 1) 53%, rgba(2, 126, 207, 1) 67%, rgba(2, 108, 201, 1) 84%);
+}
+.search input{
+    height:50px;
+    width: 300px;
+    padding:15px 22px;
+    border:0px ;
+    border-radius: 35px;
+    margin: 45px auto;
+    font-size: 16px;  
+    background-color: #F5DFDF;
+}
+.search button{
+    width: 50px;
+    height:50px;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin :0px 0px 0px 11px 
+}
+.search img{
+    width: 16px;
+    height: 20px;
+    margin: -2px;
+}
+.marginTop{
+    margin-top: 20px;
+}
+.temp img{
+    width: 150px;
+    height: 150px;
+    margin-top:-35px;
+
+}
+.temp h1{
+    font-size: 60px;
+    color:#F5DFDF ;
+    margin-top:-15px;
+    font-weight: 700;
+}
+.temp h2{
+    font-size:35px;
+    color:#F5DFDF ;
+    margin-top:-10px;
+    font-weight:200;
+}
+.addtional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+    width: 400px;
+}
+.humidity{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.humidity img {
+    height:50px;
+    width:50px;
+    margin:10px;
+
+}
+.humidity div{
+    margin:10px 5px;
+    text-align:start;
+
+}
+.humidity h1{
+    font-size: 18px;
+    color:#F5DFDF ;
+    
+}
+.humidity h2{
+    font-size: 14px;
+    color:#F5DFDF ;
+}
+.controller{
+    display:none;
+}
