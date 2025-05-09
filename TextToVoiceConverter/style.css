@@ -87,7 +87,16 @@ body{
   height: 40px;
   border:1px solid black;
   border-radius: 20px;
-  appearance: none
+  appearance: none;
+  padding-left: 15px;
+  color: white;
+}
+.buttons select option {
+  background: #403d84; /* Light background */
+  color: rgb(240, 233, 233); /* Text color */
+  height: 300px;
+  font-size: 14px;
+  padding-top: 10px;
 }
 .buttons button{
     width: 100px;
