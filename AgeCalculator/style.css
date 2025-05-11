@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(135deg,#4203a9,#90bafc);
+}
+.container{
+    padding:110px;
+
+}
+.container h1{
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 64px;
+
+}
+.container h2{
+    font-weight:500;
+    font-size: 60px;
+    color: rgb(255, 248, 41);
+}
+.calculator{
+    background: #FFFFFF;
+    background: linear-gradient(115deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    padding: 30px 45px 30px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin:22px 0px;
+
+}
+.calculator input{
+    width: 325px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 17px;
+}
+.calculator button{
+    width: 100px;
+    height: 45px;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 15px;
+    background-color: rgb(255, 248, 41);
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 1px;
+
+}
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
