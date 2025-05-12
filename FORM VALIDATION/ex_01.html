@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Form Validation 
+        </title>
+        <style>
+            body{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin:0;
+            }
+            form{
+                border: 5px solid black;
+                padding: 60px 20px;
+                border-radius:10px;
+            }
+            label{
+                display:block;
+              
+            }
+            input[type="text"]{
+              margin-bottom: 15px;
+            }
+            input[type="tel"]{
+                margin-bottom: 25px;
+            }
+            .error{
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <form id ="myForm" action="">
+            <label for="name">Enter Your Name </label> <br>
+            <input type="text" id="name" name="name"  required> 
+            <span class="error" id="nameErr"></span><br>
+            <label for="phone_no">Enter your phone number</label><br>
+            <input type="tel" id="phone_no" name="phone_no" pattern="^\+91\s\d{5}\s\d{5}"   placeholder="+91 93609 77635" required>
+            <span class="error" id="phoneErr"></span><br>
+            <input type="submit" value="Submit">
+        </form>
+        <script>
+            document.getElementById("myForm").addEventListener('submit',function(event){
+                event.preventDefault();
+                let name=document.getElementById("name").value;
+                let nameErr=document.getElementById("nameErr");
+                let SpeChar=/[^a-zA-z\s]/;
+                nameErr.textContent="";
+                if(SpeChar.test(name)){
+                    nameErr.textContent="The Text should not contain the special character";
+                }
+                let no=document.getElementById("phone_no").value;
+                let noErr=document.getElementById("phoneErr");
+                let noCheck=/^\+91\s\d{5}\s\d{5}$/;
+                phoneErr.textContent="";
+                if(!noCheck.test(no)){
+                    phoneErr.textContent="Please Enter the vaild phone number";
+                }
+            })
+        </script>
+    </body>
+</html>
