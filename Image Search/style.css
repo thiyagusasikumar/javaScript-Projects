@@ -1,0 +1,95 @@
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #39297b;
+    color: white;
+}
+.title h1{
+    margin: 30px auto 30px;
+    text-align: center;
+}
+.search{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    min-width: 450px;
+    height: 50px;
+    background-color: #434984;
+    border: 0px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 9px 0px 0px 9px ;
+    font-size: 18px;
+    padding :0px 0px 0px 15px;
+    color: #fff;
+}
+.search button{
+    height: 50px;
+    font-size: 18px;
+    padding:0px 23px;
+    background:#ff3929;
+    border: 0px ;
+    border-radius: 0px 9px 9px 0px ;
+    outline: 0px ;
+    color: #fff;
+}
+.showMore{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.showMore button{
+    font-size: 17px;
+    padding:10px 15px;
+    background:#ff3929;
+    border: 0px ;
+    border-radius: 9px ;
+    outline: 0px ;
+    color: #fff;
+    margin: 25px;
+    display:none;
+}
+.result{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 72px auto 40px;
+}
+.result img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
