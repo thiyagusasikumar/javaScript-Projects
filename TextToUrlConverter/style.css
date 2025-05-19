@@ -1,0 +1,108 @@
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(2, 62, 138, 0.99);
+    background: linear-gradient(115deg, rgba(2, 62, 138, 1) 28%, rgba(0, 180, 216, 0.6) 96%);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero{
+    border:0px;
+    border-radius: 10px;
+    background: linear-gradient(115deg, rgba(2, 62, 231, 0.5) 0%, rgba(0, 180, 255, 0.4) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 75px 32px 75px;
+    gap: 20px;
+}
+.hero h1{
+    font-size: 30px;
+    color: #edf6f9;
+}
+.QrGenerator{
+    height: 43px;
+    width: 175px;
+    border: 0px;
+    border-radius: 35px;
+    background-color: rgba(12, 75, 165, 3);
+    margin-top: 10px;
+    color: #edf6f9;
+    font-size: 16px;
+    margin: 4px 15px 0px 15px;
+}
+.QrGenerator:hover{
+    background: linear-gradient(115deg, rgba(84, 251, 66, 0.4) 0%, rgba(724, 9, 133, 0.5) 100%);
+    transform: scale(1.05);
+}
+#url{
+    height: 40px;
+    width: 495px;
+    padding: 0px 15px;
+    font-size: 18px
+}
+#qrImage{
+    display: none;
+}
+#qrImage_2{
+    display: none;
+}
+.hero_2{
+    display: none;
+    border:0px;
+    border-radius: 10px;
+    background: linear-gradient(115deg, rgba(2, 62, 231, 0.5) 0%, rgba(0, 180, 255, 0.4) 100%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 75px 32px 75px;
+    gap: 20px;
+}
+.hero_2 h1{
+    font-size: 30px;
+    color: #edf6f9;
+
+}
+#pdf{
+    height: 40px;
+    width: 495px;
+    padding: 0px 15px;
+    font-size: 18px
+}
+
+
+
+  

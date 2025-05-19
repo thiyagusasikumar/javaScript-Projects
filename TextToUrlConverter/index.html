@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="doc.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <h1 class="tinos-bold">Enter Your Text or URL</h1>
+        <input type="text" id="url" required  placeholder="Url or Text">
+        <div class="btns">
+            <button class="QrGenerator tinos-regular" id="changeText" type="button" >Generate QR Code</button>
+            <button class="QrGenerator tinos-regular" id="changeImage" type="button" >Need to change pdfs</button>
+        </div>
+        <img id="qrImage" alt="QR Code will appear here">
+    </div>
+    <div class="hero_2">
+        <h1 class="tinos-bold">Upload your PDF</h1>
+        <input type="text" id="pdf" required  placeholder="Url or Text">
+        <div class="btns_2">
+            <button class="QrGenerator  tinos-regular" type="button" >Generate QR Code</button>
+            <button class="QrGenerator  tinos-regular" type="button" >Need to change URLs</button>
+        </div>
+        <img id="qrImage_2" alt="QR Code will appear here">
+    </div>
+</body>
+</html>
