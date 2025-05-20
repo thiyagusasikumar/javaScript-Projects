@@ -1,0 +1,89 @@
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ccbbe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow: hidden;
+    
+}
+.container{
+  background-color: #e8e9ef;
+  width: 390px;
+  height: 250px;
+  box-shadow: 0px 0px 127px 58px rgba(191, 183, 183, 0.75);
+  -webkit-box-shadow: 0px 0px 127px 58px rgba(191, 183, 183, 0.75);
+  -moz-box-shadow: 0px 0px 127px 58px rgba(191,183,183,0.75);
+  border: 0px;
+  border-radius: 10px;
+  margin: 20px;
+  border: 2px dashed rgba(130, 140, 252, 0.99);
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero{
+  background-color:#fff;
+    border: 0px;
+    border-radius: 10px;
+}
+input{
+    display: none;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+}
+.container h1{
+  font-size: 18px;
+}
+.container p{
+  font-size: 13px;
+  color: gray;
+  margin-top: 7px;
+}
+.viewPort{
+  background-color:#fff;
+  border: 0px;
+  border-radius: 23px;
+}
+.viewPort img{
+  width: 390px;
+  height: 250px;
+  margin: 20px;
+  object-fit: cover;
+  border: 0px;
+  border-radius: 23px;
+  display: none;
+}
+
