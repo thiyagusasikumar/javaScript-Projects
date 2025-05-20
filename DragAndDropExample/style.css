@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(195, 49, 170, 0.99);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    border: 2px dashed #fff;
+    text-align: center;
+    padding: 25px;
+}
+.dragBox{
+    width: 500px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+.Box{
+    width: 200px ;
+    height: 200px;
+    border: 2px dashed #fff;
+    padding: 10px;
+
+}
+.image{
+    width: 180px;
+    height: 180px;
+}
