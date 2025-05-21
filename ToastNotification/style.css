@@ -1,0 +1,127 @@
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #F1E7E7;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 55px 0px 0px 0px;
+}
+button{
+    width: 117px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 15px;
+}
+#invalid{
+    background-color:#FF9D23 ;
+    color: #fff;
+}
+#invalid:hover {
+    background-color: gray ;
+    color: black;
+    transition: background-color 0.7s, color 0.7s;
+}
+#error{
+    background-color: #CB0404;
+    color: #fff;
+}
+#error:hover {
+    background-color: gray ;
+    color: black;
+    transition: background-color 0.7s, color 0.7s;
+}
+#completed{
+    background-color: #5CB338 ;
+    color: #fff;
+}
+#completed:hover {
+    background-color: gray ;
+    color: black;
+    transition: background-color 0.7s, color 0.7s;
+}
+.ToastBox{
+    padding: 10px 70px 10px 15px;
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+    border-bottom: 3px solid #5CB338;
+    display: inline-block;
+    text-align: start;
+    border-radius: 10px;
+    width: 315px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:#fff;
+    box-shadow: 0 0 20px rgba(0 , 0, 0, 0.3);
+}
+.iconComplete{
+    font-size: 16px;
+    margin-right: 7px;
+    background: #5CB338;
+    padding: 9px;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 33px;
+    text-align: center;
+    
+}
+.iconError{
+    font-size: 16px;
+    margin-right: 7px;
+    background: #CB0404;
+    padding: 9px;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 33px;
+    text-align: center;
+    
+}
+.iconInvaild{
+    font-size: 16px;
+    margin-right: 7px;
+    background: #FF9D23 ;
+    padding: 9px;
+    color: white;
+    border-radius: 50%;
+    height: 33px;
+    width: 30px;
+    text-align: center;
+}
+.notification{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display:flex;
+    flex-direction:column;
+}
