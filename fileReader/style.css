@@ -1,0 +1,46 @@
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    margin: 40px ;
+}
+.hero h1{
+    font-size:35px;
+}
+.inputField{
+    padding: 20px 10px;
+    margin: 10px 75px;
+    font-size: 18px;
+    color: gray;
+}
+.output img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 34px;
+    margin-left: 80px;
+}
